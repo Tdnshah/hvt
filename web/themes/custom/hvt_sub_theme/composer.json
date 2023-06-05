@@ -1,0 +1,20 @@
+{
+    "name": "civictheme/hvt_sub_theme",
+    "description": "Himalayan volunteer tourism drupal theme which extends salsa digitals civic theme.",
+    "type": "drupal-theme",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8",
+        "salsadigitalauorg/civictheme": "^1"
+    },
+    "extra": {
+        "civictheme": {
+            "version": "1.0.0",
+            "homepage": "https://github.com/salsadigitalauorg/civictheme",
+            "support": {
+                "issues": "https://github.com/salsadigitalauorg/civictheme_source/issues",
+                "source": "https://github.com/salsadigitalauorg/civictheme_source"
+            }
+        }
+    }
+}

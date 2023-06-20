@@ -1,14 +1,14 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 9c15b758-0d6f-4b97-8801-f3a07dfb2fef
-name: Drupal
-mail: ''
-slogan: ''
+uuid: 557006c8-dad5-4869-8c9d-7a3604d8994a
+name: 'Himalayan Volunteer Tourism'
+mail: sankettejas@gmail.com
+slogan: 'Experience volunteering in mountains '
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

@@ -1,0 +1,116 @@
+features:
+  favicon: 1
+favicon:
+  use_default: 1
+colors:
+  use_color_selector: 1
+  use_brand_colors: 1
+  brand:
+    light:
+      brand1: '#0f0f0f'
+      brand2: '#ebebeb'
+      brand3: '#ffcb02'
+    dark:
+      brand1: '#ffcb02'
+      brand2: '#ffcb02'
+      brand3: '#ffcb02'
+  palette:
+    light:
+      background: '#ebebeb'
+      border: '#5e5e5e'
+      highlight: '#ffcb02'
+      heading: '#060606'
+      body: '#343434'
+      background_light: '#fdfdfd'
+      background_dark: '#bcbcbc'
+      border_light: '#b0b0b0'
+      border_dark: '#171717'
+      interaction_text: '#fbfbfb'
+      interaction_background: '#0f0f0f'
+      interaction_hover_text: '#fbfbfb'
+      interaction_hover_background: '#090909'
+      interaction_focus: '#cccccc'
+      information: '#cccccc'
+      warning: '#cccccc'
+      error: '#cccccc'
+      success: '#cccccc'
+    dark:
+      background: '#ffcb02'
+      border: '#ffd01b'
+      highlight: '#ffcb02'
+      heading: '#fffcf2'
+      body: '#fff7d9'
+      background_light: '#ffcd0e'
+      background_dark: '#b28e01'
+      border_light: '#ffeca6'
+      border_dark: '#b28e01'
+      interaction_text: '#ffcb02'
+      interaction_background: '#ffcb02'
+      interaction_hover_text: '#b28e01'
+      interaction_hover_background: '#ffdf67'
+      interaction_focus: '#cccccc'
+      information: '#cccccc'
+      warning: '#cccccc'
+      error: '#cccccc'
+      success: '#cccccc'
+components:
+  logo:
+    primary:
+      light:
+        desktop:
+          path: sites/default/files/hvt_logo.jpeg
+        mobile:
+          path: ''
+      dark:
+        desktop:
+          path: sites/default/files/hvt_logo_0.jpeg
+        mobile:
+          path: ''
+    secondary:
+      light:
+        desktop:
+          path: ''
+        mobile:
+          path: ''
+      dark:
+        desktop:
+          path: ''
+        mobile:
+          path: ''
+    image_alt: ''
+  header:
+    theme: light
+    logo_type: default
+  footer:
+    theme: dark
+    logo_type: default
+    background_image:
+      path: ''
+  navigation:
+    primary_navigation:
+      dropdown: drawer
+      dropdown_columns: '4'
+      dropdown_columns_fill: 0
+      is_animated: 0
+    secondary_navigation:
+      dropdown: dropdown
+      dropdown_columns: '4'
+      dropdown_columns_fill: 0
+      is_animated: 0
+  link:
+    new_window: 0
+    external_new_window: 0
+    external_override_domains: {  }
+  skip_link:
+    theme: light
+  event_card:
+    summary_length: '160'
+  navigation_card:
+    summary_length: '160'
+  publication_card:
+    summary_length: '160'
+  promo_card:
+    summary_length: '160'
+optouts: {  }
+migration:
+  expose_metadata: 0

@@ -1,0 +1,26 @@
+uuid: fd83583a-673c-483e-953d-05b28edc0c38
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:civictheme_component_block:7cf65f98-cbae-4e9d-b6ea-7d6d1c437c1c'
+  module:
+    - block_content
+  theme:
+    - hvt_sub_theme
+id: hvt_sub_theme_footer_acknowledgment_of_country
+theme: hvt_sub_theme
+region: footer_bottom_1
+weight: 0
+provider: null
+plugin: 'block_content:7cf65f98-cbae-4e9d-b6ea-7d6d1c437c1c'
+settings:
+  id: 'block_content:7cf65f98-cbae-4e9d-b6ea-7d6d1c437c1c'
+  label: 'Footer - Acknowledgment of country'
+  label_display: ''
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+  label_machine_name: footer_acknowledgment_of_country
+visibility: {  }

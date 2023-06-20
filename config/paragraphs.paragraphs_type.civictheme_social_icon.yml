@@ -1,0 +1,12 @@
+uuid: f203bdd9-3d1c-46d3-952f-91cdacab950e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qICE28TQOPlHRIFraK3EghA5z9-69197HY5ir3di9FM
+id: civictheme_social_icon
+label: 'Social icon'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

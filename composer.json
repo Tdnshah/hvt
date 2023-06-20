@@ -23,8 +23,7 @@
         "drupal/core-recommended": "^9.5",
         "drupal/metatag": "^1.23",
         "drush/drush": "^11.5",
-        "salsadigitalauorg/civictheme": "^1.4",
-        "salsadigitalauorg/civictheme_content": "^1.4"
+        "salsadigitalauorg/civictheme": "^1.4"
     },
     "conflict": {
         "drupal/drupal": "*"

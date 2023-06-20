@@ -1,0 +1,12 @@
+uuid: 87e21350-ded0-4903-ba4a-db603f87d77c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6I2-DWnfsAI6BZ-j_767PLbgwtVu00cQpNl1RjXreNE
+id: civictheme_event_card_ref
+label: 'Event reference card'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

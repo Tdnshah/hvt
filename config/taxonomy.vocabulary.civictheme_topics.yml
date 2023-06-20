@@ -1,0 +1,10 @@
+uuid: 253b0749-adfa-4830-8c0d-955193fd65f0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0cX3BLDf920Sp3LSAHAcPpo-kOR8npCjiUEEca9uEx8
+name: Topics
+vid: civictheme_topics
+description: ''
+weight: 0

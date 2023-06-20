@@ -1,0 +1,17 @@
+uuid: 687d9615-7bb5-4491-a378-e61095c6bba4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3QaCHT9gBhZoLPjj4Z9fR2XskPUaJKFh4kWzOOGwL1g
+name: civictheme_topic_desktop
+label: 'Topic desktop'
+effects:
+  b871b9ed-7922-4361-9034-9b29e4cd2239:
+    uuid: b871b9ed-7922-4361-9034-9b29e4cd2239
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 276
+      height: 224
+      anchor: center-center

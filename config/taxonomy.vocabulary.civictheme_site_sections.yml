@@ -1,0 +1,10 @@
+uuid: 9faea502-bc4d-4a8f-b191-bf930a5a12c3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zjSBEy0tUIQIYU3N3E8WWGeLdMD8KtoVh6VOZXmSwYw
+name: 'Site sections'
+vid: civictheme_site_sections
+description: 'Site sections used to group content.'
+weight: 0

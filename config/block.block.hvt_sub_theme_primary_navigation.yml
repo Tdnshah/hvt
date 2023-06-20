@@ -1,0 +1,31 @@
+uuid: afa14763-e0ee-426a-86b4-76e46a8d4301
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.civictheme-primary-navigation
+  module:
+    - menu_block
+  theme:
+    - hvt_sub_theme
+id: hvt_sub_theme_primary_navigation
+theme: hvt_sub_theme
+region: header_middle_3
+weight: -13
+provider: null
+plugin: 'menu_block:civictheme-primary-navigation'
+settings:
+  id: 'menu_block:civictheme-primary-navigation'
+  label: 'Primary Navigation'
+  label_display: ''
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  label_link: false
+  label_type: block
+  level: 1
+  depth: 3
+  expand_all_items: false
+  parent: 'civictheme-primary-navigation:'
+  suggestion: civictheme_primary_navigation
+visibility: {  }

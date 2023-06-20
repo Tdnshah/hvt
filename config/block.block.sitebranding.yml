@@ -1,0 +1,23 @@
+uuid: c64c9108-8d25-4cd3-9a28-bcd80662fd3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hvt_sub_theme
+id: sitebranding
+theme: hvt_sub_theme
+region: header_top_2
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: false
+  use_site_slogan: true
+visibility: {  }

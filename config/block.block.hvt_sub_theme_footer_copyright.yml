@@ -1,0 +1,26 @@
+uuid: 47dd08aa-64b1-4c7d-b476-24f620c0f04a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:civictheme_component_block:d7098a8c-3ba3-48f7-bc0c-5787ebaa0427'
+  module:
+    - block_content
+  theme:
+    - hvt_sub_theme
+id: hvt_sub_theme_footer_copyright
+theme: hvt_sub_theme
+region: footer_bottom_2
+weight: 0
+provider: null
+plugin: 'block_content:d7098a8c-3ba3-48f7-bc0c-5787ebaa0427'
+settings:
+  id: 'block_content:d7098a8c-3ba3-48f7-bc0c-5787ebaa0427'
+  label: 'Footer - Copyright'
+  label_display: ''
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+  label_machine_name: footer_copyright
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 1d61d9e1-6dc4-4343-8bd2-1c83fb128abb
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: NnPm-GSl7GtKc12k7-JsLinH2bh6iluuYW8C-XNGy_A
+id: paragraph.field_c_p_list_item_view_as
+field_name: field_c_p_list_item_view_as
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: civictheme_promo_card
+      label: 'Promo card'
+    -
+      value: civictheme_navigation_card
+      label: 'Navigation card'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,12 @@
+uuid: 551cf322-33d6-4a0e-acf7-fd879e22f92e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: INpkPbtJQls7fnMtXfR3C23EDRNjzeqfls5JGyg9W18
+id: civictheme_promo
+label: Promo
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,12 @@
+uuid: 5e6be355-8df8-4780-949b-b062fa13477e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OhNbVsa6EUc5JdIT5ygq-Z39ZbGx4rRuSzieiR092sU
+id: civictheme_service_card
+label: 'Service card'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

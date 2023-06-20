@@ -1,0 +1,22 @@
+uuid: c41a4342-20d3-4aa6-a4e4-e6fab7ca7f10
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hvt_sub_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: hvt_sub_theme_content
+theme: hvt_sub_theme
+region: content
+weight: -14
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

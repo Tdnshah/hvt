@@ -1,0 +1,26 @@
+uuid: 7179fc1a-7ecb-4536-ab6c-f886b161ba59
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:civictheme_social_links:5c0ad15f-3e9c-4eeb-8525-7a064b06fc58'
+  module:
+    - block_content
+  theme:
+    - hvt_sub_theme
+id: hvt_sub_theme_footer_social_links
+theme: hvt_sub_theme
+region: footer_top_2
+weight: 0
+provider: null
+plugin: 'block_content:5c0ad15f-3e9c-4eeb-8525-7a064b06fc58'
+settings:
+  id: 'block_content:5c0ad15f-3e9c-4eeb-8525-7a064b06fc58'
+  label: 'Social links'
+  label_display: ''
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+  label_machine_name: footer_social_links
+visibility: {  }

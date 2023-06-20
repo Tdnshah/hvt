@@ -1,0 +1,23 @@
+uuid: cbd9cf1e-d8b5-4d4b-99d3-2004204ca1d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_c_p_content
+    - paragraphs.paragraphs_type.civictheme_accordion_panel
+  module:
+    - text
+_core:
+  default_config_hash: XBDOm1gnuxTCaNFVUHeewVI9G3hKDFUncAdxJtoe86M
+id: paragraph.civictheme_accordion_panel.field_c_p_content
+field_name: field_c_p_content
+entity_type: paragraph
+bundle: civictheme_accordion_panel
+label: Content
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

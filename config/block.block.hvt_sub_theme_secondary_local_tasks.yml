@@ -1,0 +1,22 @@
+uuid: 16c7b1aa-7ca0-4ce1-9529-e5fd06d4078c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hvt_sub_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: hvt_sub_theme_secondary_local_tasks
+theme: hvt_sub_theme
+region: highlighted
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

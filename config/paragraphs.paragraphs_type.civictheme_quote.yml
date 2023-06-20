@@ -1,0 +1,12 @@
+uuid: efd45620-4342-46d3-a8cc-c989ddaa6764
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SYpHz2AQfl5cXDUANXRWzT3d8XBjnLUC4PNTvNZDbKg
+id: civictheme_quote
+label: Quote
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

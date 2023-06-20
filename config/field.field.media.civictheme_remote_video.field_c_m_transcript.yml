@@ -1,0 +1,23 @@
+uuid: 7a693c61-6a58-42c8-a47b-73da8c59b2af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_c_m_transcript
+    - media.type.civictheme_remote_video
+  module:
+    - text
+_core:
+  default_config_hash: Bfvn-EUjVirJXIFAi3jcN0MwpfVWtGXIsfPh3ooeD9Y
+id: media.civictheme_remote_video.field_c_m_transcript
+field_name: field_c_m_transcript
+entity_type: media
+bundle: civictheme_remote_video
+label: Transcript
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

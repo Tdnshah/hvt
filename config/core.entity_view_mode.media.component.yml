@@ -1,0 +1,12 @@
+uuid: 178e8e15-acf4-4dc0-a9ca-8ed1912b44fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: s4yZmrYOb0GghGBDRLeMy9SmU2e_F31zdkhlsVWTdag
+id: media.component
+label: Component
+targetEntityType: media
+cache: true

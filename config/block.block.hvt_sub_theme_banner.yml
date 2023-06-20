@@ -1,0 +1,25 @@
+uuid: e276f37a-25d9-4ee1-938d-643cff4ca406
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:civictheme_banner:50c52459-c100-4e4d-92a4-9c4c77d8f8d0'
+  module:
+    - block_content
+  theme:
+    - hvt_sub_theme
+id: hvt_sub_theme_banner
+theme: hvt_sub_theme
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:50c52459-c100-4e4d-92a4-9c4c77d8f8d0'
+settings:
+  id: 'block_content:50c52459-c100-4e4d-92a4-9c4c77d8f8d0'
+  label: Banner
+  label_display: ''
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "169fef0b11e28b370f668df6661bd9fe",
+    "content-hash": "1234163aa43af0418bf7924a62be3b6f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -728,16 +728,16 @@
         },
         {
             "name": "consolidation/self-update",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/self-update.git",
-                "reference": "714b09fdf0513f83292874bb12de0566066040c2"
+                "reference": "972a1016761c9b63314e040836a12795dff6953a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/self-update/zipball/714b09fdf0513f83292874bb12de0566066040c2",
-                "reference": "714b09fdf0513f83292874bb12de0566066040c2",
+                "url": "https://api.github.com/repos/consolidation/self-update/zipball/972a1016761c9b63314e040836a12795dff6953a",
+                "reference": "972a1016761c9b63314e040836a12795dff6953a",
                 "shasum": ""
             },
             "require": {
@@ -777,9 +777,9 @@
             "description": "Provides a self:update command for Symfony Console applications.",
             "support": {
                 "issues": "https://github.com/consolidation/self-update/issues",
-                "source": "https://github.com/consolidation/self-update/tree/2.1.0"
+                "source": "https://github.com/consolidation/self-update/tree/2.2.0"
             },
-            "time": "2023-02-21T19:33:55+00:00"
+            "time": "2023-03-18T01:37:41+00:00"
         },
         {
             "name": "consolidation/site-alias",
@@ -1933,83 +1933,6 @@
             }
         },
         {
-            "name": "drupal/default_content",
-            "version": "2.0.0-alpha2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/default_content.git",
-                "reference": "2.0.0-alpha2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/default_content-2.0.0-alpha2.zip",
-                "reference": "2.0.0-alpha2",
-                "shasum": "5c365ea21b0be63dc00ec2db50179291d6fb3d89"
-            },
-            "require": {
-                "drupal/core": "^9.1 || ^10"
-            },
-            "require-dev": {
-                "drupal/hal": " ^9 || ^1 || ^2",
-                "drupal/paragraphs": "^1"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.0-alpha2",
-                    "datestamp": "1659466706",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9 || ^10 || ^11"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "andypost",
-                    "homepage": "https://www.drupal.org/user/118908"
-                },
-                {
-                    "name": "benjy",
-                    "homepage": "https://www.drupal.org/user/1852732"
-                },
-                {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
-                    "name": "dawehner",
-                    "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "jibran",
-                    "homepage": "https://www.drupal.org/user/1198144"
-                },
-                {
-                    "name": "larowlan",
-                    "homepage": "https://www.drupal.org/user/395439"
-                },
-                {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
-                }
-            ],
-            "description": "Imports default content when a module is enabled",
-            "homepage": "https://www.drupal.org/project/default_content",
-            "support": {
-                "source": "https://git.drupalcode.org/project/default_content"
-            }
-        },
-        {
             "name": "drupal/entity_reference_revisions",
             "version": "1.10.0",
             "source": {
@@ -2621,17 +2544,17 @@
         },
         {
             "name": "drupal/simple_sitemap",
-            "version": "4.1.4",
+            "version": "4.1.6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/simple_sitemap.git",
-                "reference": "4.1.4"
+                "reference": "4.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_sitemap-4.1.4.zip",
-                "reference": "4.1.4",
-                "shasum": "55986f9819c60216ad6401941ca4176a1e086c8b"
+                "url": "https://ftp.drupal.org/files/projects/simple_sitemap-4.1.6.zip",
+                "reference": "4.1.6",
+                "shasum": "5ea5ee97ab4d59b43db86dd6279c3ac5ecbe69b9"
             },
             "require": {
                 "drupal/core": "^9.3 || ^10",
@@ -2640,8 +2563,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.1.4",
-                    "datestamp": "1674226567",
+                    "version": "4.1.6",
+                    "datestamp": "1686288643",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2747,45 +2670,45 @@
         },
         {
             "name": "drupal/webform",
-            "version": "6.1.4",
+            "version": "6.1.5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "6.1.4"
+                "reference": "6.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-6.1.4.zip",
-                "reference": "6.1.4",
-                "shasum": "b1c27c2a210670b6d149cdd92cbb37100b19cf64"
+                "url": "https://ftp.drupal.org/files/projects/webform-6.1.5.zip",
+                "reference": "6.1.5",
+                "shasum": "a6d3f10b377add2db2823134b819d443f7a88f86"
             },
             "require": {
-                "drupal/core": "^8.8 || ^9"
+                "drupal/core": "^9.3"
             },
             "require-dev": {
-                "drupal/address": "~1.0",
-                "drupal/bootstrap": "~3.0",
-                "drupal/captcha": "~1.0",
-                "drupal/chosen": "~3.0",
-                "drupal/clientside_validation": "*",
+                "drupal/address": "1.x-dev",
+                "drupal/bootstrap": "3.x-dev",
+                "drupal/captcha": "1.x-dev",
+                "drupal/chosen": "3.0.x-dev",
+                "drupal/clientside_validation": "3.0.x-dev",
                 "drupal/clientside_validation_jquery": "*",
-                "drupal/devel": "*",
-                "drupal/entity": "~1.0",
-                "drupal/entity_print": "*",
+                "drupal/devel": "5.x-dev",
+                "drupal/entity": "1.x-dev",
+                "drupal/entity_print": "2.x-dev",
                 "drupal/gnode": "*",
-                "drupal/group": "*",
-                "drupal/jquery_ui": "~1.0",
-                "drupal/jquery_ui_checkboxradio": "*",
-                "drupal/jquery_ui_datepicker": "~1.0",
-                "drupal/lingotek": "~3.0",
-                "drupal/mailsystem": "~4.0",
-                "drupal/paragraphs": "~1.0",
-                "drupal/select2": "~1.0",
-                "drupal/smtp": "~1.0",
-                "drupal/styleguide": "~2.0",
-                "drupal/telephone_validation": "~2.0",
-                "drupal/token": "*",
-                "drupal/variationcache": "~1.0",
+                "drupal/group": "1.x-dev",
+                "drupal/jquery_ui": "1.x-dev",
+                "drupal/jquery_ui_checkboxradio": "1.x-dev",
+                "drupal/jquery_ui_datepicker": "1.x-dev",
+                "drupal/lingotek": "4.0.x-dev",
+                "drupal/mailsystem": "4.x-dev",
+                "drupal/paragraphs": "1.x-dev",
+                "drupal/select2": "1.x-dev",
+                "drupal/smtp": "1.x-dev",
+                "drupal/styleguide": "1.x-dev",
+                "drupal/telephone_validation": "2.x-dev",
+                "drupal/token": "1.x-dev",
+                "drupal/variationcache": "1.x-dev",
                 "drupal/webform-webform_group": "*",
                 "drupal/webform_access": "*",
                 "drupal/webform_attachment": "*",
@@ -2805,8 +2728,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.1.4",
-                    "datestamp": "1673535467",
+                    "version": "6.1.5",
+                    "datestamp": "1686599078",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2857,22 +2780,22 @@
         },
         {
             "name": "drush/drush",
-            "version": "11.5.1",
+            "version": "11.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "3138f82baa3b0e29ac935893a444881a7332177d"
+                "reference": "f301df5dec8d2aacb03d3e01e0ffc6d98e10ae78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/3138f82baa3b0e29ac935893a444881a7332177d",
-                "reference": "3138f82baa3b0e29ac935893a444881a7332177d",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/f301df5dec8d2aacb03d3e01e0ffc6d98e10ae78",
+                "reference": "f301df5dec8d2aacb03d3e01e0ffc6d98e10ae78",
                 "shasum": ""
             },
             "require": {
                 "chi-teck/drupal-code-generator": "^2.4",
                 "composer/semver": "^1.4 || ^3",
-                "consolidation/annotated-command": "^4.7.0",
+                "consolidation/annotated-command": "^4.8.2",
                 "consolidation/config": "^2",
                 "consolidation/filter-via-dot-access-data": "^2",
                 "consolidation/robo": "^3.0.9 || ^4.0.1",
@@ -2990,7 +2913,7 @@
                 "forum": "http://drupal.stackexchange.com/questions/tagged/drush",
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/11.5.1"
+                "source": "https://github.com/drush-ops/drush/tree/11.6.0"
             },
             "funding": [
                 {
@@ -2998,7 +2921,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-21T02:32:48+00:00"
+            "time": "2023-06-06T18:46:18+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -4636,36 +4559,6 @@
                 "source": "https://github.com/salsadigitalauorg/civictheme_source"
             },
             "time": "2023-05-06T02:52:47+00:00"
-        },
-        {
-            "name": "salsadigitalauorg/civictheme_content",
-            "version": "1.4.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/salsadigitalauorg/civictheme_content.git",
-                "reference": "f003b9a59b0f3249ebc25398613b41eff0006153"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/salsadigitalauorg/civictheme_content/zipball/f003b9a59b0f3249ebc25398613b41eff0006153",
-                "reference": "f003b9a59b0f3249ebc25398613b41eff0006153",
-                "shasum": ""
-            },
-            "require": {
-                "drupal/default_content": "^2.0@alpha",
-                "php": ">=8"
-            },
-            "type": "drupal-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "Default content for CivicTheme theme.",
-            "support": {
-                "issues": "https://github.com/salsadigitalauorg/civictheme_source/issues",
-                "source": "https://github.com/salsadigitalauorg/civictheme_source"
-            },
-            "time": "2023-05-06T02:53:15+00:00"
         },
         {
             "name": "stack/builder",

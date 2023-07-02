@@ -1,0 +1,10 @@
+.git/
+.ddev/
+.vscode/
+.idea/
+web/sites/*/files/
+web/sites/*/settings.local.php
+web/sites/*/settings.ddev.php
+web/sites/*/settings.prod.php
+web/sites/*/settings.*.php
+*.sql

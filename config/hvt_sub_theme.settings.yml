@@ -4,15 +4,15 @@ favicon:
   use_default: 1
 colors:
   use_color_selector: 1
-  use_brand_colors: 1
+  use_brand_colors: 0
   brand:
     light:
       brand1: '#0f0f0f'
       brand2: '#ebebeb'
       brand3: '#ffcb02'
     dark:
-      brand1: '#ffcb02'
-      brand2: '#ffcb02'
+      brand1: '#0f0f0f'
+      brand2: '#ebebeb'
       brand3: '#ffcb02'
   palette:
     light:
@@ -35,19 +35,19 @@ colors:
       error: '#cccccc'
       success: '#cccccc'
     dark:
-      background: '#ffcb02'
-      border: '#ffd01b'
+      background: '#ebebeb'
+      border: '#ededed'
       highlight: '#ffcb02'
-      heading: '#fffcf2'
-      body: '#fff7d9'
-      background_light: '#ffcd0e'
-      background_dark: '#b28e01'
-      border_light: '#ffeca6'
-      border_dark: '#b28e01'
-      interaction_text: '#ffcb02'
-      interaction_background: '#ffcb02'
-      interaction_hover_text: '#b28e01'
-      interaction_hover_background: '#ffdf67'
+      heading: '#f3f3f3'
+      body: '#dbdbdb'
+      background_light: '#ececec'
+      background_dark: '#a4a4a4'
+      border_light: '#f8f8f8'
+      border_dark: '#a4a4a4'
+      interaction_text: '#ebebeb'
+      interaction_background: '#0f0f0f'
+      interaction_hover_text: '#a4a4a4'
+      interaction_hover_background: '#6f6f6f'
       interaction_focus: '#cccccc'
       information: '#cccccc'
       warning: '#cccccc'
@@ -58,12 +58,12 @@ components:
     primary:
       light:
         desktop:
-          path: sites/default/files/hvt_logo.jpeg
+          path: sites/default/files/hvt_logo-withoutbg.png
         mobile:
           path: ''
       dark:
         desktop:
-          path: sites/default/files/hvt_logo_0.jpeg
+          path: sites/default/files/hvt_logo-withoutbg_0.png
         mobile:
           path: ''
     secondary:
